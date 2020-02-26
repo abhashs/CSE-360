@@ -1,6 +1,6 @@
 //NAME: Abhash Shrestha
 //ASU_ID: 1214683132
-//CLASS_ID: 112git
+//CLASS_ID: 112
 //ASSIGNMENT: #2
 //DESC: Class to insert, remove, and read inputs in an array.
 //      Can also search for entries and tally the number of entries.
@@ -27,15 +27,24 @@ public class SimpleList {
 
     /**
      * Add input to beginning of array, and push back elements.
-     * Elements that pass the array size are removed.
+     * When array size is reached, size is increased by 50%
      * @param input the number to be added to the array
      */
     public void add(int input){
-        for(int index = list.length - 1; index > 0; index--){
+        if (count == list.length) {
+            int newSize = (int)(list.length*1.5);
+            int[] temp = new int[newSize];
+            for(int index = 0; index < count; index++){
+                temp[index] = list[index];
+            }
+            list = temp;
+        }
+        for (int index = list.length - 1; index > 0; index--) {
             list[index] = list[index - 1];
         }
         list[0] = input;
         count++;
+
     }
 
 
@@ -62,6 +71,15 @@ public class SimpleList {
             }
         }
         list = temp;
+
+        if(count <= (int)(list.length * .75)){
+            int newSize = (int)(list.length * .75);
+            temp = new int[newSize];
+            for(int index = 0; index < newSize; index++){
+                temp[index] = list[index];
+            }
+            list = temp;
+        }
     }
 
 

@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a83b6a61-cff6-42aa-b3ac-00a3b6edf1e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assign2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cse360assign2/SimpleList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cse360assign2/SimpleListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assign2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/assign2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cse360assign2/SimpleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cse360assign2/SimpleList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,10 +20,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cse360assign2/SimpleList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            <state relative-caret-position="323">
+              <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
               <folding>
                 <element signature="e#0#2544#0" expanded="true" />
+                <element signature="e#1890#1891#0" expanded="true" />
+                <element signature="e#1918#1919#0" expanded="true" />
+                <element signature="e#2700#2701#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cse360assign2/SimpleListTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#1733#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,14 +54,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/cse360assign2/SimpleList.java" />
+        <option value="$PROJECT_DIR$/src/cse360assign2/SimpleListTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1488" />
-    <option name="y" value="-12" />
-    <option name="width" value="1526" />
-    <option name="height" value="1946" />
+    <option name="x" value="1490" />
+    <option name="width" value="1522" />
+    <option name="height" value="1932" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -61,6 +75,11 @@
             <path>
               <item name="assign2" type="b2602c69:ProjectViewProjectNode" />
               <item name="assign2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="assign2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="assign2" type="462c0819:PsiDirectoryNode" />
+              <item name="CSE 360" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="assign2" type="b2602c69:ProjectViewProjectNode" />
@@ -82,7 +101,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582669155886" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582748716883" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -106,6 +129,27 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="SimpleListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assign2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cse360assign2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cse360assign2" />
+      <option name="MAIN_CLASS_NAME" value="cse360assign2.SimpleListTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SimpleListTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -119,6 +163,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SimpleListTest - 2020.02.26 at 13h 08m 50s.xml">
+      <configuration name="SimpleListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleListTest - 2020.02.26 at 13h 09m 10s.xml">
+      <configuration name="SimpleListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleListTest - 2020.02.26 at 13h 20m 42s.xml">
+      <configuration name="SimpleListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleListTest - 2020.02.26 at 13h 21m 15s.xml">
+      <configuration name="SimpleListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleListTest - 2020.02.26 at 13h 21m 24s.xml">
+      <configuration name="SimpleListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleListTest - 2020.02.26 at 13h 21m 33s.xml">
+      <configuration name="SimpleListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleListTest - 2020.02.26 at 13h 23m 06s.xml">
+      <configuration name="SimpleListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleListTest - 2020.02.26 at 13h 23m 16s.xml">
+      <configuration name="SimpleListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleListTest - 2020.02.26 at 13h 23m 28s.xml">
+      <configuration name="SimpleListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleListTest - 2020.02.26 at 13h 23m 51s.xml">
+      <configuration name="SimpleListTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
@@ -128,14 +204,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948454" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24948454" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32977462" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32977462" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32977462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -159,12 +236,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cse360assign2/SimpleListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#1733#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cse360assign2/SimpleList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="323">
+          <caret line="76" column="36" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
           <folding>
             <element signature="e#0#2544#0" expanded="true" />
+            <element signature="e#1890#1891#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+            <element signature="e#2700#2701#0" expanded="true" />
           </folding>
         </state>
       </provider>
