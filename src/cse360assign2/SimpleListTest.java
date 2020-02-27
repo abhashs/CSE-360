@@ -132,4 +132,85 @@ public class SimpleListTest {
         assertEquals(EXPECTED, list.search(1));         //test found input
         assertEquals(-1, list.search(4));      //test input not found
     }
+
+    @Test
+    public void testAppend() {
+        int[] expected = new int[15];
+        expected[0] = 0;
+        expected[1] = 1;
+        expected[2] = 2;
+        expected[3] = 3;
+        expected[4] = 4;
+        expected[5] = 5;
+        expected[6] = 6;
+        expected[7] = 7;
+        expected[8] = 8;
+        expected[9] = 9;
+        expected[10] = 10;
+        expected[11] = 11;
+
+        SimpleList list = new SimpleList();
+        list.append(0);
+        list.append(1);
+        list.append(2);
+        list.append(3);
+        list.append(4);
+        list.append(5);
+        list.append(6);
+        list.append(7);
+        list.append(8);
+        list.append(9);
+        list.append(10);
+        list.append(11);
+
+        assertEquals(Arrays.toString(expected), list.toString());
+    }
+
+    @Test
+    public void testFirst(){
+        SimpleList list = new SimpleList();
+        list.add(1);
+        int firstValue = list.first();
+        int expected = 1;
+        assertEquals(firstValue, expected);
+    }
+
+    @Test
+    public void testFirstEmpty(){
+        SimpleList list = new SimpleList();
+        int firstValue = list.first();
+        int expected = -1;
+        assertEquals(firstValue, expected);
+    }
+
+    @Test
+    public void testLast(){
+        SimpleList list = new SimpleList();
+        list.append(1);
+        list.append(2);
+        int lastValue = list.last();
+        int expected = 2;
+        assertEquals(expected, lastValue);
+    }
+
+    @Test
+    public void testSize(){
+        SimpleList list = new SimpleList();
+        list.append(0);
+        list.append(1);
+        list.append(2);
+        list.append(3);
+        list.append(4);
+        list.append(5);
+        list.append(6);
+        list.append(7);
+        list.append(8);
+        list.append(9);
+        list.append(10);
+        list.append(11);
+
+        int sizeValue = list.size();
+        int expected = 15;
+        assertEquals(expected, sizeValue);
+    }
 }

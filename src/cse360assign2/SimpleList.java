@@ -117,4 +117,38 @@ public class SimpleList {
         }
         return result;
     }
+
+
+    public void append(int input){
+        if (count == list.length) {
+            int newSize = (int)(list.length*1.5);
+            int[] temp = new int[newSize];
+            for(int index = 0; index < count; index++){
+                temp[index] = list[index];
+            }
+            list = temp;
+        }
+        list[count] = input;
+        count++;
+    }
+
+    public int first(){
+        int returnValue = -1;
+        if (count != 0){
+            returnValue = list[0];
+        }
+        return returnValue;
+    }
+
+    public int last(){
+        int returnValue = -1;
+        if (count != 0){
+            returnValue = list[count-1];
+        }
+        return returnValue;
+    }
+
+    public int size(){
+        return list.length;
+    }
 }
