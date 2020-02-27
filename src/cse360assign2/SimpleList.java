@@ -51,7 +51,8 @@ public class SimpleList {
     /**
      * Search and remove input from array. If an element is removed,
      * the rest of the array is brought up in index, otherwise the
-     * array remains the same.
+     * array remains the same. Reduce size by 25% once that space
+     * is empty
      * @param input the number to be removed
      */
     public void remove(int input){
@@ -119,6 +120,11 @@ public class SimpleList {
     }
 
 
+    /**
+     * Add input to end of array, increase
+     * size by 50% if end is reached.
+     * @param input the number to be added
+     */
     public void append(int input){
         if (count == list.length) {
             int newSize = (int)(list.length*1.5);
@@ -132,6 +138,9 @@ public class SimpleList {
         count++;
     }
 
+    /**
+     * @return returns the first element, or -1 if not found
+     */
     public int first(){
         int returnValue = -1;
         if (count != 0){
@@ -140,6 +149,9 @@ public class SimpleList {
         return returnValue;
     }
 
+    /**
+     * @return returns the last element, or -1 if not found
+     */
     public int last(){
         int returnValue = -1;
         if (count != 0){
@@ -148,6 +160,9 @@ public class SimpleList {
         return returnValue;
     }
 
+    /**
+     * @return returns the array size
+     */
     public int size(){
         return list.length;
     }
